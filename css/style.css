@@ -84,13 +84,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1px;
+    margin-top: 0px;
   }
   
   .flag-container img {
     max-width: 40%;
     height: 30px;
-    border-radius: 5px;
   }
   
   .search-blocks {
