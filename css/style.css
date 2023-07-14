@@ -47,7 +47,8 @@ body {
   }
   
   .input-group {
-    
+    align-content: center;
+    width: 70%;
     margin-bottom: 10px;
   }
   
