@@ -47,7 +47,8 @@ body {
   }
   
   .input-group {
-    align-content: center;
+    display: block;
+    margin: 20px auto;
     width: 50%;
     margin-bottom: 10px;
   }
@@ -88,7 +89,7 @@ body {
   
   .flag-container img {
     max-width: 40%;
-    height: 80px;
+    height: 30px;
     border-radius: 5px;
   }
   
