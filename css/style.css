@@ -89,7 +89,7 @@ body {
   
   .flag-container img {
     max-width: 40%;
-    height: 30px;
+    height: 20px;
   }
   
   .search-blocks {
@@ -114,23 +114,30 @@ body {
   }
   
   nav ul {
-    margin-top: 0%;
+    margin: 0%;
     display: flex;
     justify-content: center;
   }
   
   nav ul li {
     list-style-type: none;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     min-width: 10%;
   }
   
-  nav ul li a {
-    text-decoration: none;
-    font-size: 16px;
-    color: aliceblue;
+  nav ul li button {
+    padding: 20px;
+    margin: 10px;
+    background-color: black; 
+    color: white; 
+    border: none;
   }
-  
+
+  nav ul li button:hover {
+    background-color: white;
+    color: black;
+  }
+
   .footer {
     margin-top: 15px;
     background-color: black;

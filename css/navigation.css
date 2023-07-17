@@ -84,7 +84,8 @@ body {
   
   .flag-container img {
     max-width: 50%;
-    height: auto;
+    height: 350px;
+    width: auto;
     border-radius: 5px;
   }
   
@@ -111,12 +112,13 @@ body {
   
   nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    padding-left: 10px;
   }
   
   nav ul li {
     list-style-type: none;
-    padding: 18px 30px;
+    /* padding: 18px 30px; */
     min-width: 10%;
   }
   
